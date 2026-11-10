@@ -12,3 +12,9 @@ def test_invalid_login():
 
     assert password != "admin123"
 
+def test_empty_password():
+    username = "admin"
+    password = ""
+
+    assert username == "admin"
+    assert password == ""
