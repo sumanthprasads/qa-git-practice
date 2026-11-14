@@ -29,3 +29,11 @@ Expected Result: Password validation message should be displayed.
 2. Enter a password.
 3. Click Login.
 Expected Result: Email validation message should be displayed.
+
+
+
+## TC_006 - Locked User Login
+1. Enter the username of a locked user.
+2. Enter the correct password.
+3. Click Login.
+Expected Result: An appropriate account-locked message should be displayed
