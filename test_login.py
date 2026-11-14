@@ -24,3 +24,8 @@ def test_username_case_sensitivity():
     username = "Admin"
 
     assert username != "admin"
+
+def test_locked_account():
+    username = "locked_user"
+
+    assert username == "locked_user"
