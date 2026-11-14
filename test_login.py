@@ -24,3 +24,11 @@ def test_username_case_sensitivity():
     username = "Admin"
 
     assert username != "admin"
+
+def test_login_with_empty_password():
+    username = "admin"
+    password = ""
+
+    assert username == "admin"
+    assert password != ""
+
